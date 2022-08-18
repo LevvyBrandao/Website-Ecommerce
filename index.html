@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive E-Commerce Website</title>
+    <!-- Link to Css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- box Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <a href="#" class="logo"> <i class="bx bxs-t-shirt"></i> Nike</a>
+
+      <ul class="navbar">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#new">Lançamentos</a></li>
+        <li><a href="#products">Produtos</a></li>
+        <li><a href="#reviews">Avaliações</a></li>
+      </ul>
+
+      <!-- Icons -->
+      <div class="header-icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-search" id="search-icon"></i>
+        <i class="bx bx-cart" id="cart-icon"></i>
+        <i class="bx bx-user" id="user-icon"></i>
+      </div>
+
+      <!-- Search Box -->
+
+      <div class="search-box">
+        <input type="search" name="" id="" placeholder="Buscar" />
+      </div>
+
+      <!-- Cart Box -->
+      <div class="cart">
+        <!-- Box 1 -->
+        <div class="box">
+          <img src="images/1.webp" alt="" />
+          <div class="text">
+            <h3>Jaqueta Air Fleece Verde</h3>
+            <span>R$ 199,99</span>
+            <span>XL</span>
+          </div>
+          <i class="bx bxs-trash-alt"></i>
+        </div>
+
+        <!-- Box 2 -->
+        <div class="box">
+          <img src="images/2.webp" alt="" />
+          <div class="text">
+            <h3>Jaqueta Air Fleece Preta</h3>
+            <span>R$ 199,99</span>
+            <span>XL</span>
+          </div>
+          <i class="bx bxs-trash-alt"></i>
+        </div>
+
+        <h2>Total: R$ 399,98</h2>
+        <a href="#" class="btn">Conferir</a>
+      </div>
+
+      <!-- User -->
+      <div class="user">
+        <h2>Fazer Login</h2>
+        <input type="email" placeholder="Seu Email ..." />
+        <input type="password" name="" id="" placeholder="Senha" />
+        <input type="submit" value="Login" class="login-btn" />
+        <p>Esqueçeu a Senha <a href="#">Redefinir Senha</a></p>
+        <p>Não tenho uma conta<a href="#">Criar Conta</a></p>
+      </div>
+    </header>
+
+    <!-- Home -->
+
+    <section class="home" id="home">
+      <div class="home-text">
+        <span>Novo</span>
+        <h1>Novos Itens Exclusivos</h1>
+    </section>
+
+    <!-- New Arrival -->
+
+    <sectiom class="new" id="new">
+      <div class="heading">
+        <h1>Novas <span>Linhas</span></h1>
+      </div>
+      <div class="swiper new-arrival">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="images/Tenis/1.webp" alt="" />
+            <div class="content">
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="images/Tenis/2.webp" alt="" />
+            <div class="content">
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="images/Tenis/3.webp" alt="" />
+            <div class="content">
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="images/Tenis/4.webp" alt="" />
+            <div class="content">
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="images/Tenis/5.webp" alt="" />
+            <div class="content">
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="images/Tenis/6.webp" alt="" />
+            <div class="content">
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </sectiom>
+
+    <!-- Product -->
+    <sectiom class="products" id="products">
+      <div class="heading">
+        <h1>Nossos<span>Produtos</span></h1>
+      </div>
+      <div class="product-container">
+        <div class="box">
+          <img
+            src="images/camiseta-manga-longa-w-nsw-icn-clsh-crw-DD5069-010-1-11628870413.webp"
+            alt=""
+          />
+          <div class="content">
+            <h2>Blusão Icon Clash</h2>
+
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <span>R$329,00</span>
+            <i class="bx bx-cart"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="images/blusao-nike-sportswear-masculino-DA0021-447-1-11650469751.webp"
+            alt=""
+          />
+          <div class="content">
+            <h2>Blusão Trend Fleece</h2>
+
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <span>R$549,99</span>
+            <i class="bx bx-cart"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="images/camiseta-nike-barcelona-202122-stadium-third-masculina-DB5896-406-1-11631107507.webp"
+            alt=""
+          />
+          <div class="content">
+            <h2>Camiseta Barcelona</h2>
+
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <span>R$219,99</span>
+            <i class="bx bx-cart"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="images/camisa-nike-liverpool-i-202122-torcedora-pro-feminina-DB2539-688-1-11621433199.jpg"
+            alt=""
+          />
+          <div class="content">
+            <h2>Camiseta Liverpool</h2>
+
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <span>R$289,99</span>
+            <i class="bx bx-cart"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="images/camiseta-nike-dri-fit-legend-feminina-AQ3210-010-1.webp"
+            alt=""
+          />
+          <div class="content">
+            <h2>Camiseta Dri-FIT</h2>
+
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <span>R$219,99</span>
+            <i class="bx bx-cart"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="images/jaqueta-nike-sportswear-windrunner-masculina-AR2191-077-1.webp"
+            alt=""
+          />
+          <div class="content">
+            <h2>Camiseta Sportswear</h2>
+
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <span>R$199,99</span>
+            <i class="bx bx-cart"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="images/Mains/Feminino/Top Nike Dri-FIT Indy Feminino R$ 179,99.webp"
+            alt=""
+          />
+          <div class="content">
+            <h2>Top Dri-FIT Indy</h2>
+
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <span>R$179,99</span>
+            <i class="bx bx-cart"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="images/blusao-m-nk-windrunner-jkt-CZ9070-621-1-11638987568.webp"
+            alt=""
+          />
+          <div class="content">
+            <h2>Jaqueta Windrunner</h2>
+
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <span>R$519,99</span>
+            <i class="bx bx-cart"></i>
+          </div>
+        </div>
+      </div>
+    </sectiom>
+
+    <!-- Reviews -->
+    <section class="reviews" id="reviews">
+      <div class="heading">
+        <h1>Nossos<span>Clientes</span></h1>
+      </div>
+      <div class="reviews-container">
+        <div class="box">
+          <img src="images/People/1.jpg" alt="" />
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <p>
+            Produto idêntico ao anúncio, excelente atendimento, e ele é bastante confortável, adorei!
+            <h2>Luciana Souza</h2>
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/People/2.jpg" alt="" />
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <p>
+            Muito lindo, tamanho compatível com a numeração, excelente conforto, uso para passeio!
+            <h2>Ricardo Lima</h2>
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/People/3.jpg" alt="" />
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <p>
+            Tênis bonito, leve, confortável e durável, um dos melhores que eu tive até agora! Recomendo sim!
+            <h2>Amanda Silva</h2>
+          </p>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- Footer -->
+   <section class="footer">
+     <div class="footer-box">
+       <h2>Nike</h2>
+       <p>Nike é responsável por fabricar e comercializar calçados, roupas <br> e acessórios, destacando-se como uma das companhias de </br> equipamentos esportivos mais valiosas do mundo.</p>
+
+       <div class="social">
+         <a href="#"><i class='bx bxl-facebook'></i></a>
+         <a href="#"><i class='bx bxl-twitter'></i></a>
+         <a href="#"><i class='bx bxl-instagram'></i></a>
+         <a href="#"><i class='bx bxl-tiktok'></i></a>
+       </div>
+     </div>
+     <div class="footer-box">
+       <h3>Suporte</h3>
+       <li><a href="#">Produto</a></li>
+       <li><a href="#">Ajuda & Suporte</a></li>
+       <li><a href="#">Política de devolução</a></li>
+       <li><a href="#">Termos de uso</a></li>
+       <li><a href="#">FAQ</a></li>
+     </div>
+
+     <div class="footer-box">
+       <h3>Nossos filiais</h3>
+       <li><a href="#">Brasil</a></li>
+       <li><a href="#">Japão</a></li>
+       <li><a href="#">Estados Unidos</a></li>
+       <li><a href="#">França</a></li>
+       <li><a href="#">Canadá</a></li>
+     </div>
+
+     <div class="footer-box">
+       <h3>Método de pagamento</h3>
+        <div class="payment">
+          <img src="images/Métodos de Pagamento/mastercard.png" alt="">
+          <img src="images/Métodos de Pagamento/paypal.png" alt="">
+          <img src="images/Métodos de Pagamento/pix.png" alt="">
+          <img src="images/Métodos de Pagamento/visa.png" alt="">
+        </div>
+     </div>
+
+   </section>
+
+   <!-- Copyright -->
+   <div class="copyright">
+     <p>&#169; Levvy Brandão Todos os Direitos Reservados</p>
+   </div>
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Link to JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
+
